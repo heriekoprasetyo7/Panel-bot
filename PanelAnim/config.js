@@ -1,17 +1,10 @@
-// ========== FILE KONFIGURASI ==========
-// Letak: /Panel-bot/config.js
-// Ini file untuk setting produk dan nomor DANA
-
 module.exports = {
-    // ===== NOMOR DANA (GANTI DENGAN NOMOR LU!) =====
     DANA_NUMBERS: [
         { number: '081278455854', label: '📱 UTAMA' },
         { number: '083842507410', label: '📱 CADANGAN' }
     ],
     
-    // ===== PRODUK PANEL (SESUAI PERMINTAAN) =====
     PRODUCTS: [
-        // 1K - 9K
         { id: 'p1k', name: 'RAM 1GB', price: 1000, emoji: '🪙', cpu: 100, ram: 1024, disk: 5120 },
         { id: 'p2k', name: 'RAM 2GB', price: 2000, emoji: '🥉', cpu: 150, ram: 2048, disk: 10240 },
         { id: 'p3k', name: 'RAM 3GB', price: 3000, emoji: '🥈', cpu: 200, ram: 3072, disk: 15360 },
@@ -21,15 +14,10 @@ module.exports = {
         { id: 'p7k', name: 'RAM 7GB', price: 7000, emoji: '🔥', cpu: 400, ram: 7168, disk: 35840 },
         { id: 'p8k', name: 'RAM 8GB', price: 8000, emoji: '🚀', cpu: 450, ram: 8192, disk: 40960 },
         { id: 'p9k', name: 'RAM 9GB', price: 9000, emoji: '👑', cpu: 500, ram: 9216, disk: 46080 },
-        
-        // UNLIMITED 10K
         { id: 'unlimited', name: 'UNLIMITED', price: 10000, emoji: '∞', cpu: 1000, ram: 32768, disk: 204800 },
-        
-        // ADMIN PANEL 30K
         { id: 'adp30k', name: 'ADMIN PANEL', price: 30000, emoji: '👑', cpu: 800, ram: 16384, disk: 102400 }
     ],
     
-    // ===== SURAH NGAJI (UNTUK FITUR NGAJI) =====
     SURAH_LIST: [
         { number: 1, name: 'Al-Fatihah', ayat: 7, arab: 'الفاتحة' },
         { number: 36, name: 'Yasin', ayat: 83, arab: 'يس' },
@@ -40,7 +28,6 @@ module.exports = {
         { number: 114, name: 'An-Nas', ayat: 6, arab: 'الناس' }
     ],
     
-    // ===== INFO BOT (OPSIONAL) =====
     BOT_NAME: 'HERIKEYZENLOCKER BOT',
     VERSION: '8.0.0',
     LAST_UPDATE: '04 Maret 2026'
